@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://admin:GFidtnZiHCQ7b46J@cluster0.2isyv0j.mongodb.net/DevConvo")
+mongoose.connect(process.env.MONGODB_URI)
 
 const schema = mongoose.Schema({
   name : {
