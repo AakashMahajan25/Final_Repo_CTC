@@ -77,41 +77,41 @@ const Hero = () => {
             C2C
             <div>DEVCONVO</div>
           </div>
-          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24">
+          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24 2xl:text-7xl 2xl:pt-44">
             AZURE DEVELOPER <div>DAY - GWALIOR</div>
           </div>
-          <div className="flex items-center gap-2 pt-6">
-            <div>
-              <SlCalender className="text-blue-500" />
+          <div className="flex items-center gap-2 pt-6 2xl:pt-10">
+            <div className="2xl:py-2">
+              <SlCalender className="text-blue-500 2xl:text-2xl" />
             </div>
-            <div>21 February 2023</div>
+            <div className="2xl:text-xl">21 February 2023</div>
           </div>
-          <div className="flex lg:items-center gap-2 pb-2">
+          <div className="flex lg:items-center gap-2 pb-2 ">
             <div>
-              <IoLocationSharp className="text-blue-500 mt-1 lg:mt-0" />
+              <IoLocationSharp className="text-blue-500 mt-1 lg:mt-0 2xl:text-2xl" />
             </div>
-            <div>Rustamji Institute Of Technology, Gwalior</div>
+            <div className="2xl:text-xl">Rustamji Institute Of Technology, Gwalior</div>
           </div>
-          <div className="py-10 text-center lg:text-left">
+          <div className="pb-10 2xl:pt-10 pt-5  lg:text-left">
             <button
-              className="text-white bg-gradient-to-br from-blue-800 via-blue-700 to-green-200 py-4 px-8 font-semibold rounded"
+              className="text-white bg-gradient-to-br from-blue-800 via-blue-700 to-green-200 py-4 px-8 font-semibold rounded 2xl:text-xl"
               onClick={() => setShowForm(true)}
             >
               Register Now
             </button>
           </div>
-          <div className="flex justify-center lg:block">
-            <img src={Sponsors} alt="" className="lg:h-10 h-20 pb-6 lg:pb-0" />
+          <div className="lg:block">
+            <img src={Sponsors} alt="" className="lg:h-10 h-14 pb-6 lg:pb-0 2xl:h-14 " />
           </div>
         </div>
 
         <div className="lg:w-1/2 overflow-hidden lg:rounded-bl-3xl">
-          <img src={heroimg} alt="" className="w-full h-[100vh]" />
+          <img src={heroimg} alt="" className="w-full lg:h-[100vh]" />
         </div>
       </div>
 
       {showForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none ">
+        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-hidden outline-none focus:outline-none ">
           <div className="relative w-full max-w-3xl mx-auto my-6">
             <div className="relative flex  w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none">
               <div className="relative p-6 flex-auto bg-white rounded-lg shadow-md">
@@ -169,7 +169,7 @@ const Hero = () => {
                           Number
                         </label>
                         <input
-                          type="number"
+                          type="text"
                           id="number"
                           name="number"
                           value={formData.number}
@@ -339,15 +339,15 @@ const Hero = () => {
           <div className="text-sm text-center lg:text-left">2 Professional</div>
           <div className="text-sm">Speakers</div>
         </div>
-        <div className="flex flex-col justify-center items-center p-4 px-10 border-b-2 lg:border-b-0 lg:border-r-2 lg:w-1/4">
+        <div className="flex flex-col justify-center items-center p-4  border-b-2 lg:border-b-0 lg:border-r-2 lg:w-1/4">
           <div>
             <HiOutlinePencilSquare className="text-blue-600 text-2xl" />
           </div>
-          <div className="text-lg font-semibold">Registration Fee</div>
+          <div className="text-lg font-semibold ">Registration Fee</div>
           <div className="text-sm ">Free</div>
           <div className="text-sm text-white">.</div>
         </div>
-        <div className="flex flex-col justify-center items-center border-b-2 lg:border-b-0 p-4 px-10  lg:w-1/4">
+        <div className="flex flex-col justify-center items-center b lg:border-b-0 pt-4 px-10  lg:w-1/4">
           <div>
             <MdOutlineDateRange className="text-blue-600 text-2xl" />
           </div>

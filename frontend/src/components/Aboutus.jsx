@@ -5,7 +5,7 @@ import Tick from "../assets/tick.png";
 
 const Aboutus = () => {
   return (
-    <div className="py-40 bg-blue-50">
+    <div className="pt-40 pb-20  bg-blue-50">
       <div className="pt-40  md:grid md:grid-flow-col md:grid-cols-5 md:gap-10">
         <div className="h-[0vh] md:col-span-2 md:opacity-100 opacity-20 w-full">
           <img src={Grp} alt="" className="m-auto hidden sm:block" />
@@ -43,7 +43,7 @@ const Aboutus = () => {
             </div>
           </div>
           <div className="font-bold text-2xl text-left pl-6">Benefits</div>
-          <div className="text-sm font-semibold">
+          <div className="text-sm font-semibold pl-5 py-2">
             <span className="pr-8 flex items-center">
               <img src={Tick} alt="" className="w-5 m-1" /> Networking- Social &
               Professional
@@ -52,9 +52,9 @@ const Aboutus = () => {
               <img src={Tick} alt="" className="w-5 m-1" /> Knowledge
               Enhancement
             </span>
-          </div>
           <div className="text-sm flex items-center font-semibold">
             <img src={Tick} alt="" className="w-5 m-1" /> In-depth Knowledge
+          </div>
           </div>
         </div>
       </div>
