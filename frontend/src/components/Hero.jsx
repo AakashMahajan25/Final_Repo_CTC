@@ -57,7 +57,7 @@ const Hero = () => {
         const timer = () => {
           setTimeout(() => {
             setShowThankYou(false);
-          }, 2000);
+          }, 5000);
         };
         timer();
       } else {
@@ -76,7 +76,7 @@ const Hero = () => {
             C2C
             <div>DEVCONVO</div>
           </div>
-          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24 2xl:text-7xl 2xl:pt-40">
+          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24  2xl:pt-40">
             AZURE DEVELOPER <div>DAY - GWALIOR</div>
           </div>
           <div className="flex items-center gap-2 pt-6 2xl:pt-10">
@@ -105,7 +105,7 @@ const Hero = () => {
             <img
               src={Sponsors}
               alt=""
-              className="lg:h-10 h-14 pb-6 lg:pb-0 2xl:h-14 "
+              className="lg:h-10 h-14 pb-6 lg:pb-0  "
             />
           </div>
         </div>
