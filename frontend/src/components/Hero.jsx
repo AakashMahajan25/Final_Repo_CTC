@@ -116,7 +116,7 @@ const Hero = () => {
       </div>
 
       {showForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-hidden outline-none focus:outline-none pt-40 lg:pt-0">
+        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto lg:overflow-y-hidden outline-none focus:outline-none pt-40 lg:pt-0">
           <div className="relative w-full max-w-3xl mx-auto my-6">
             <div className="relative flex  w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none">
               <div className="relative p-6 flex-auto bg-white rounded-lg shadow-md">
