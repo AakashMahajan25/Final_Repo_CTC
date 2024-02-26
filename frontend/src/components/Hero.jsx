@@ -154,7 +154,7 @@ const Hero = () => {
                           htmlFor="name"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Name
+                          Name *
                         </label>
                         <input
                           type="text"
@@ -171,7 +171,7 @@ const Hero = () => {
                           htmlFor="number"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Number
+                          Number *
                         </label>
                         <input
                           type="text"
@@ -188,7 +188,7 @@ const Hero = () => {
                           htmlFor="mail"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Email
+                          Email *
                         </label>
                         <input
                           type="email"
@@ -205,7 +205,7 @@ const Hero = () => {
                           htmlFor="city"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          City
+                          City *
                         </label>
                         <input
                           type="text"
@@ -225,7 +225,7 @@ const Hero = () => {
                           htmlFor="organization"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Organization
+                          Organization *
                         </label>
                         <input
                           type="text"
@@ -242,7 +242,7 @@ const Hero = () => {
                           htmlFor="designation"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Designation
+                          Designation *
                         </label>
                         <input
                           type="text"

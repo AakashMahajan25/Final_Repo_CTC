@@ -11,7 +11,7 @@ const Aboutus = () => {
           <img src={Grp} alt="" className="m-auto hidden sm:block" />
         </div>
         <div className="col-span-3 ">
-          <div className="font-bold text-blue-500 text-5xl pb-5 text-center">ABOUT US</div>
+          <div className="font-bold text-blue-500 text-5xl pb-5 mt-6 lg:mt-0 text-center">ABOUT US</div>
           <div className="pr-10 font-semibold text-sm ml-5">
             <div className="pb-2">
               Join us for an immersive Developer Day at Rustamji Institute of
