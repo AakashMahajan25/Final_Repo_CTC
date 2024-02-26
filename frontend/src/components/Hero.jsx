@@ -225,7 +225,7 @@ const Hero = () => {
                           htmlFor="organization"
                           className="block text-gray-700 text-sm font-bold mb-2"
                         >
-                          Organization *
+                          Organization/College/School *
                         </label>
                         <input
                           type="text"
