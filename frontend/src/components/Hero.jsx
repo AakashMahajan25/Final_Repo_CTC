@@ -9,7 +9,6 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { FaUserTie } from "react-icons/fa";
 import { GiCancel } from "react-icons/gi";
 
-
 const Hero = () => {
   const [showForm, setShowForm] = useState(false);
   const [showThankYou, setShowThankYou] = useState(false);
@@ -90,7 +89,9 @@ const Hero = () => {
             <div>
               <IoLocationSharp className="text-blue-500 mt-1 lg:mt-0 2xl:text-2xl" />
             </div>
-            <div className="2xl:text-xl">Rustamji Institute Of Technology, Gwalior</div>
+            <div className="2xl:text-xl">
+              Rustamji Institute Of Technology, Gwalior
+            </div>
           </div>
           <div className="pb-10 2xl:pt-10 pt-5  lg:text-left">
             <button
@@ -101,7 +102,11 @@ const Hero = () => {
             </button>
           </div>
           <div className="lg:block">
-            <img src={Sponsors} alt="" className="lg:h-10 h-14 pb-6 lg:pb-0 2xl:h-14 " />
+            <img
+              src={Sponsors}
+              alt=""
+              className="lg:h-10 h-14 pb-6 lg:pb-0 2xl:h-14 "
+            />
           </div>
         </div>
 
