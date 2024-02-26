@@ -105,7 +105,7 @@ const Hero = () => {
         </div>
 
         <div className="lg:w-1/2 overflow-hidden lg:rounded-bl-3xl">
-          <img src={heroimg} alt="" className="w-full" />
+          <img src={heroimg} alt="" className="w-full h-[100vh]" />
         </div>
       </div>
 
