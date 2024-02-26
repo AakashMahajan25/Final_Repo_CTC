@@ -76,7 +76,7 @@ const Hero = () => {
             C2C
             <div>DEVCONVO</div>
           </div>
-          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24 2xl:text-7xl 2xl:pt-44">
+          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24 2xl:text-7xl 2xl:pt-40">
             AZURE DEVELOPER <div>DAY - GWALIOR</div>
           </div>
           <div className="flex items-center gap-2 pt-6 2xl:pt-10">
@@ -116,12 +116,12 @@ const Hero = () => {
       </div>
 
       {showForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-hidden outline-none focus:outline-none ">
+        <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-hidden outline-none focus:outline-none pt-40 lg:pt-0">
           <div className="relative w-full max-w-3xl mx-auto my-6">
             <div className="relative flex  w-full bg-white border-0 rounded-lg shadow-lg outline-none focus:outline-none">
               <div className="relative p-6 flex-auto bg-white rounded-lg shadow-md">
                 <button
-                  className="absolute top-0 right-0 mr-4 mt-4 text-gray-600 hover:text-gray-800 focus:outline-none"
+                  className="absolute top-0 right-0 lg:mr-4 lg:mt-4 mr-4 mt-10 text-gray-600 hover:text-gray-800 focus:outline-none"
                   onClick={() => setShowForm(false)}
                 >
                   <svg
