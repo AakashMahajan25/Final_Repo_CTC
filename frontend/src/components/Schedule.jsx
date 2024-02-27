@@ -11,7 +11,7 @@ const Schedule = () => {
         <div className="lg:text-7xl text-5xl text-blue-500 font-bold text-center">
           SCHEDULE
         </div>
-        <p className="lg:w-1/2 m-auto  text-center  lg:py-8 pt-6 px-6 lg:px-0 lg:text-xl ">
+        <p className="lg:w-1/2 m-auto sm:w-2/3  text-center  lg:py-8 pt-6 px-2 lg:px-0 lg:text-xl ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellat
           quaerat iusto perspiciatis sunt, cum sapiente sit molestias maxime hic
           illum
