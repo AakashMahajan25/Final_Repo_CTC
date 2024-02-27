@@ -11,7 +11,7 @@ import { GiCancel } from "react-icons/gi";
 
 const Hero = () => {
   const [showForm, setShowForm] = useState(false);
-  const [showThankYou, setShowThankYou] = useState(true);
+  const [showThankYou, setShowThankYou] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     number: "",
