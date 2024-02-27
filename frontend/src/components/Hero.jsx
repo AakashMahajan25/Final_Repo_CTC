@@ -11,7 +11,7 @@ import { GiCancel } from "react-icons/gi";
 
 const Hero = () => {
   const [showForm, setShowForm] = useState(false);
-  const [showThankYou, setShowThankYou] = useState(false);
+  const [showThankYou, setShowThankYou] = useState(true);
   const [formData, setFormData] = useState({
     name: "",
     number: "",
@@ -307,7 +307,7 @@ const Hero = () => {
       {showThankYou && (
         <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
           <div className="relative w-auto max-w-3xl mx-auto my-6">
-            <div className="relative flex w-[20vw] bg-blue-100 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
+            <div className="relative flex w-[92vw] sm:w-[65vw] xl:w-[30vw] bg-blue-100 border-0 rounded-lg shadow-lg outline-none focus:outline-none">
               <div className="relative p-6 flex-auto">
                 <p className="text-center text-xl font-semibold text-blue-800">
                   Thank you, you have been registered!
@@ -315,7 +315,7 @@ const Hero = () => {
               </div>
               <div className="absolute top-0 right-0 m-4 flex items-center py-3">
                 <button
-                  className="text-blue-600 hover:text-blue-800 focus:outline-none"
+                  className="text-blue-600 pl-6 hover:text-blue-800 focus:outline-none"
                   onClick={() => console.log("Close button clicked")}
                 >
                   <GiCancel className="h-6 w-6" />
