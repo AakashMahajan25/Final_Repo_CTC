@@ -76,21 +76,21 @@ const Hero = () => {
             C2C
             <div>DEVCONVO</div>
           </div>
-          <div className=" text-5xl text-blue-700 font-bold pt-10 lg:pt-24  2xl:pt-40">
-            AZURE DEVELOPER <div>DAY - GWALIOR</div>
+          <div className=" text-5xl bg-clip-text text-transparent bg-gradient-to-tr from-blue-500  via-purple-600 to-purple-600 font-bold pt-10 lg:pt-24  2xl:pt-40 text-">
+            Open Source <div>Cohort</div>
           </div>
           <div className="flex items-center gap-2 pt-6 2xl:pt-10">
             <div className="2xl:py-2">
               <SlCalender className="text-blue-500 2xl:text-2xl" />
             </div>
-            <div className="2xl:text-xl">21 February 2023</div>
+            <div className="2xl:text-xl">9<sup>th</sup> - 10<sup>th</sup> March 2023</div>
           </div>
           <div className="flex lg:items-center gap-2 pb-2 ">
             <div>
               <IoLocationSharp className="text-blue-500 mt-1 lg:mt-0 2xl:text-2xl" />
             </div>
             <div className="2xl:text-xl">
-              Rustamji Institute Of Technology, Gwalior
+              Online
             </div>
           </div>
           <div className="pb-10 2xl:pt-10 pt-5  lg:text-left">
@@ -332,7 +332,7 @@ const Hero = () => {
             <LuClock11 className="text-blue-600 text-2xl" />
           </div>
           <div className="text-lg font-semibold">Timing</div>
-          <div className="text-sm w-max">11:00 AM - 12:30</div>
+          <div className="text-sm w-max">6:00 PM - 9:00</div>
           <div className="text-sm">PM IST</div>
         </div>
 
@@ -357,7 +357,7 @@ const Hero = () => {
             <MdOutlineDateRange className="text-blue-600 text-2xl" />
           </div>
           <div className="text-lg font-semibold">Days</div>
-          <div className="text-sm ">1 Day</div>
+          <div className="text-sm ">2 Days</div>
           <div className="text-sm text-white">-</div>
         </div>
       </div>

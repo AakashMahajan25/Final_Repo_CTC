@@ -12,9 +12,7 @@ const Schedule = () => {
           SCHEDULE
         </div>
         <p className="lg:w-1/2 m-auto sm:w-2/3  text-center  lg:py-8 pt-6 px-2 lg:px-0 lg:text-xl ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellat
-          quaerat iusto perspiciatis sunt, cum sapiente sit molestias maxime hic
-          illum
+        Explore Open Source tech at C2C's Cohort. Engage with workshops, panels & networking. Ignite innovation and skill growth. Join us!
         </p>
 
         <div className="border-gradient lg:mt-0 mt-10   w-fit m-auto lg:px-2 bg-blue-50 ">
